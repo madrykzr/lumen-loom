@@ -1,0 +1,6 @@
+{
+  "name": "Lumen & Loom",
+  "description": "Visual demo for Lumen & Loom, a fictional Malaysian residential interior design studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
