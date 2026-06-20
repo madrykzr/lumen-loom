@@ -158,10 +158,10 @@ export default function App() {
             className="cursor-pointer group flex items-baseline gap-2 select-none"
           >
             <span className="font-serif text-2xl tracking-normal text-white font-medium transition-colors">
-              ELYSE
+              LUMEN & LOOM
             </span>
             <span className="font-mono text-[8px] tracking-[0.3em] text-elyse-taupe uppercase hidden sm:inline">
-              · RESIDENCES
+              · STUDIO
             </span>
           </div>
 
@@ -226,7 +226,7 @@ export default function App() {
             {/* Sibling Card 2: Top-Right Fine Print text details */}
             <div className="md:col-span-3 h-[240px] rounded-[24px] bg-[#121315]/80 p-8 flex flex-col justify-between border border-white/5 md:block hidden">
               <div className="font-mono text-[9px] text-elyse-taupe tracking-widest uppercase">
-                ELYSE REVELATION
+                LUMEN & LOOM REVELATION
               </div>
               <div className="space-y-3">
                 <span className="font-serif text-3xl font-light italic leading-none text-elyse-taupe block">Timeless</span>
@@ -262,7 +262,7 @@ export default function App() {
               <SmartImage 
                 src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800"
                 fallbackSrc="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800"
-                alt="Atelier Elyse Dusk Interior"
+                alt="Atelier Lumen & Loom Dusk Interior"
               />
               <div className="absolute bottom-4 left-4 bg-black/75 backdrop-blur-md px-3 py-1 text-[8px] font-mono text-white tracking-widest rounded uppercase">
                 CHAMBER STUDY · SERIES 11
@@ -289,7 +289,7 @@ export default function App() {
             <div className="absolute inset-0 w-full h-full scale-[1.05] hover:scale-[1.08] transition-transform duration-1000">
               <img 
                 src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600"
-                alt="ELYSE Residence Dusk Exterior"
+                alt="Lumen & Loom Residence Dusk Exterior"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover brightness-[0.75]"
               />
@@ -319,7 +319,7 @@ export default function App() {
               {/* Overlaid big elegant label */}
               <div className="space-y-2 select-none">
                 <h2 className="font-serif text-5xl md:text-6xl text-white tracking-widest font-light uppercase">
-                  ELYSE
+                  LUMEN & LOOM
                 </h2>
                 <div className="flex items-center gap-1.5 text-[9px] font-mono text-elyse-taupe tracking-widest uppercase">
                   <span>RESIDENCE 01</span>
@@ -337,7 +337,7 @@ export default function App() {
             className="absolute bottom-16 left-6 md:left-16 z-30 select-none max-w-xl space-y-4 pointer-events-none"
           >
             <h1 className="font-serif text-[72px] sm:text-[98px] md:text-[130px] lg:text-[160px] leading-[0.75] tracking-[-0.04em] text-[#F5F4F0] font-light uppercase">
-              ELYSE
+              LUMEN & LOOM
             </h1>
             <p className="font-serif text-lg md:text-[22px] italic text-[#BCB49F] font-light tracking-wide pl-2">
               "HOLISTIC LUXURY IN PERFECT HARMONY"
@@ -453,7 +453,7 @@ export default function App() {
             </div>
 
             <p className="text-sm md:text-base text-elyse-taupe/85 leading-relaxed font-light">
-              Every cornerstone of ELYSE Residences reflects an absolute commitment to spatial excellence. By synthesizing raw materials, natural ventilation, and acoustic subtraction, we generate residential temples of deep restoration.
+              Every cornerstone of Lumen & Loom projects reflects an absolute commitment to spatial excellence. By synthesizing raw materials, natural ventilation, and acoustic subtraction, we generate residential temples of deep restoration.
             </p>
 
             <button 
@@ -471,7 +471,7 @@ export default function App() {
               <SmartImage 
                 src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200"
                 fallbackSrc="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200"
-                alt="ELYSE Hand-poured Concrete Bath"
+                alt="Lumen & Loom Hand-poured Concrete Bath"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent flex items-end p-8">
                 <span className="font-mono text-[9px] tracking-widest text-[#F5F4F0] uppercase">
@@ -601,7 +601,7 @@ export default function App() {
                           : 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800'
                     }
                     fallbackSrc="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800"
-                    alt="Elyse Left Chambers"
+                    alt="Lumen & Loom Left Chambers"
                   />
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-6 flex justify-between items-end">
                     <span className="font-mono text-[9px] tracking-wider text-white">CHAMBER VIEW</span>
@@ -656,7 +656,7 @@ export default function App() {
                           : 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800'
                     }
                     fallbackSrc="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800"
-                    alt="Elyse Right Chambers"
+                    alt="Lumen & Loom Right Chambers"
                   />
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-6 flex justify-between items-end">
                     <span className="font-mono text-[9px] tracking-wider text-white">RESTORATIVE SPA ZONE</span>
@@ -699,7 +699,7 @@ export default function App() {
                 (OUR COVENANT & VALUES)
               </span>
               <h2 className="font-serif text-[42px] sm:text-[52px] leading-tight text-[#F5F4F0] font-light uppercase">
-                FIVE CORNERSTONES OF <span className="font-serif italic font-light text-elyse-taupe">ELYSE LIVING</span>
+                FIVE CORNERSTONES OF <span className="font-serif italic font-light text-elyse-taupe">LUMEN & LOOM LIVING</span>
               </h2>
             </div>
             
@@ -781,7 +781,7 @@ export default function App() {
         <div className="absolute inset-0 w-full h-full scale-[1.01] opacity-25 pointer-events-none">
           <img 
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600" 
-            alt="Closing ELYSE dusk glass house"
+            alt="Closing Lumen & Loom dusk glass house"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
@@ -813,7 +813,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-elyse-taupe font-mono">
                   <Mail size={13} className="text-[#D29A62]" />
-                  <span>CONCIERGE@ELYSE.MY</span>
+                  <span>CONCIERGE@LUMENANDLOOM.MY</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs text-elyse-taupe font-mono">
                   <Phone size={13} className="text-[#D29A62]" />
@@ -930,7 +930,7 @@ export default function App() {
                         Enquiry Commenced
                       </h4>
                       <p className="text-xs text-elyse-taupe leading-relaxed font-light max-w-sm mx-auto">
-                        Thank you. Your request is registered under the ELYSE physical vetting protocol. An organic concierge agent will reach out in 24 hours.
+                        Thank you. Your request is registered under the Lumen & Loom physical vetting protocol. An organic concierge agent will reach out in 24 hours.
                       </p>
                     </div>
 
@@ -956,10 +956,10 @@ export default function App() {
           
           <div className="space-y-3">
             <span className="font-serif text-2xl font-light tracking-wide text-white block">
-              ELYSE
+              LUMEN & LOOM
             </span>
             <span className="font-mono text-[8px] tracking-[0.3em] text-elyse-taupe uppercase block">
-              HOLISTIC COVENANT · BUILDING FOR GENERATIONS
+              HOLISTIC COVENANT · LUXURY BY DESIGN
             </span>
           </div>
 
@@ -982,7 +982,7 @@ export default function App() {
           </div>
 
           <div className="text-right text-[#9A9892] font-mono text-[9px] tracking-wider leading-relaxed">
-            <p>© 2026 ELYSE Residences · Deep Luxe Digital Experience · Kuala Lumpur</p>
+            <p>© 2026 Lumen & Loom · Deep Luxe Digital Experience · Kuala Lumpur</p>
             <p className="opacity-40">All architectural plans certified green sustainable.</p>
           </div>
 

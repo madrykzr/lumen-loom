@@ -1,6 +1,6 @@
 {
-  "name": "ELYSE",
-  "description": "Digital showcase for ELYSE Residences, a single-page luxury real-estate project with a dark, editorial, cinematic aesthetic.",
+  "name": "Lumen & Loom",
+  "description": "Digital showcase for Lumen & Loom, a luxury design project with a dark, editorial, cinematic aesthetic.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
