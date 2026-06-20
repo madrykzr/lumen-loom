@@ -6,20 +6,25 @@
   --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   
-  --color-bone: #F6F5F0;
-  --color-taupe: #5D6C59;
-  --color-sand: #E4E8E3;
-  --color-charcoal: #411116;
+  --color-bone: #1A1B1E;
+  --color-taupe: #BCB49F;
+  --color-sand: #121315;
+  --color-charcoal: #F5F4F0;
+  --color-wine: #D29A62;
+  --color-sky: #A1B8C0;
+  --color-elyse-dark: #1A1B1E;
+  --color-elyse-light: #F5F4F0;
+  --color-elyse-taupe: #BCB49F;
+  --color-elyse-card: rgba(35, 37, 43, 0.4);
 }
 
-@layer base {
-  body {
-    background-color: var(--color-bone);
-    color: var(--color-charcoal);
-    font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-  }
+body {
+  background-color: #1A1B1E;
+  color: #F5F4F0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Film Grain Overlay */

@@ -75,11 +75,18 @@ export default function Navigation({
         </nav>
 
         {/* Studio Metadata - Right Corner */}
-        <div className="hidden lg:flex items-center gap-4 text-right">
-          <span className="font-mono text-[9px] tracking-[0.2em] text-taupe uppercase">
-            KL / SG ORBIT
-          </span>
-          <div className="w-1.5 h-1.5 rounded-full bg-taupe/50 animate-pulse"></div>
+        <div className="hidden lg:flex items-center gap-6">
+          <div className="flex items-center gap-2 font-mono text-[10px] tracking-widest text-taupe">
+            <span className="hover:text-charcoal cursor-pointer font-semibold underline underline-offset-4">EN</span>
+            <span className="opacity-40">/</span>
+            <span className="hover:text-charcoal cursor-pointer opacity-70">MY</span>
+          </div>
+          <button
+            onClick={() => navigateTo('contact')}
+            className="px-5 py-2.5 rounded-full border border-charcoal/20 hover:bg-charcoal hover:text-bone hover:border-charcoal transition-all text-xs font-mono tracking-widest uppercase text-charcoal shadow-sm bg-sand/20"
+          >
+            BOOK A CONSULT
+          </button>
         </div>
 
         {/* Mobile Menu Toggle Button */}

@@ -62,8 +62,8 @@ export default function StudioView({ onHoverState }: StudioViewProps) {
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="aspect-[3/4] max-w-sm mx-auto border border-charcoal/5 shadow-md bg-bone">
               <SmartImage
-                src="/iman-portrait.jpg"
-                fallbackSrc={portraitFallback}
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800"
+                fallbackSrc="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=800"
                 alt="Iman Suria Principal Designer Portrait"
                 onHoverState={(isHovered) => onHoverState(isHovered ? 'project' : 'none')}
               />

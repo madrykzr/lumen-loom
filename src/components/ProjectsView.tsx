@@ -143,41 +143,12 @@ export default function ProjectsView({
                   isBroadCard ? 'aspect-[16/10]' : 'aspect-[4/5]'
                 }`}>
                   
-                  {isBangsar ? (
-                    <SmartImage
-                      src={project.heroImage}
-                      fallbackSrc={project.imageUrl}
-                      alt={project.title}
-                      onHoverState={(isHovered) => onHoverState(isHovered ? 'project' : 'none')}
-                    />
-                  ) : (
-                    /* High-craft Custom Gradient Block representing Brand Muted Colors */
-                    <div className="w-full h-full flex flex-col justify-between p-8 md:p-12 bg-gradient-to-tr from-sand/35 via-bone to-taupe/20 relative transition-transform duration-500 hover:scale-[1.015]">
-                      
-                      {/* Geometric architecture divider line */}
-                      <div className="absolute inset-x-8 top-1/2 h-[1px] bg-taupe/15"></div>
-                      <div className="absolute left-[40%] inset-y-8 w-[1px] bg-taupe/15"></div>
-
-                      <div className="flex justify-between items-start font-mono text-[9px] text-taupe tracking-widest z-10">
-                        <span>RESIDENCE NO. 0{index + 1}</span>
-                        <span>{project.size}</span>
-                      </div>
-
-                      <div className="z-10">
-                        <span className="font-mono text-[8px] text-taupe tracking-[0.25em] uppercase block mb-1">
-                          {project.type}
-                        </span>
-                        <h2 className="font-serif text-3xl md:text-4xl text-charcoal italic font-light tracking-tight">
-                          {project.title}
-                        </h2>
-                      </div>
-
-                      <div className="flex justify-between items-end z-10 font-mono text-[9px] text-taupe">
-                        <span>{project.location}</span>
-                        <span>{project.year}</span>
-                      </div>
-                    </div>
-                  )}
+                  <SmartImage
+                    src={project.heroImage || project.imageUrl}
+                    fallbackSrc={project.imageUrl}
+                    alt={project.title}
+                    onHoverState={(isHovered) => onHoverState(isHovered ? 'project' : 'none')}
+                  />
 
                   {/* Absolute subtle visual hint of interactable study */}
                   <div className="absolute bottom-4 right-4 bg-charcoal/90 text-bone border-none px-3 py-1 font-mono text-[8px] tracking-[0.2em] uppercase rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">

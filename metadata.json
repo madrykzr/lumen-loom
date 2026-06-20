@@ -1,6 +1,6 @@
 {
-  "name": "Lumen & Loom",
-  "description": "Visual demo for Lumen & Loom, a fictional Malaysian residential interior design studio.",
+  "name": "ELYSE",
+  "description": "Digital showcase for ELYSE Residences, a single-page luxury real-estate project with a dark, editorial, cinematic aesthetic.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

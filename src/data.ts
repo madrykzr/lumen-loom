@@ -17,9 +17,9 @@ export const projectsData: Project[] = [
     leadDesigner: 'Iman Suria',
     overview: 'A meticulous restoration of a circa-1950s heritage shophouse in the heart of Bangsar. The project sought to respect the original architectural envelope—bare concrete columns, brick masonry, and generous lightwells—while introducing a series of serene, warm-minimalist spatial insertions.',
     approach: 'Our approach focused on radical subtraction. By clearing previous modern divisions, we welcomed natural light and air circulation back into the deep floorplan. Material surfaces remain raw yet quiet: bone-white lime wash on original brick, dark oiled-walnut built-ins, and a custom monolith travertine kitchen island.',
-    heroImage: '/hero.jpg',
-    beforeImage: '/bangsar-before.jpg',
-    afterImage: '/bangsar-after.jpg',
+    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200',
     imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600', // high resolution fallback
     details: [
       { label: 'Architectural Envelope', value: 'Double-frontage high ceilings with central open airwell' },
@@ -47,10 +47,25 @@ export const projectsData: Project[] = [
     size: '4,200 sqft',
     duration: '6 Months',
     leadDesigner: 'Iman Suria',
-    overview: 'A double-story luxury penthouse with panoramic sky views. The design uses quiet stone slabs, dark sand-blasted ash, and deep luxury textile tones to create a private sky sanctuary.',
+    overview: 'A double-story luxury penthouse with panoramic sky views. The design uses quiet stone slabs, dark sand-blasted ash, and deep luxury texturing to create a private sky sanctuary.',
     approach: 'Creating shelter in the sky. Massive sliding oak panels partition the open plan into private sleeping, reading, and bathing cells, emphasizing acoustic dampening and tactile softness.',
-    heroImage: '', // Will render using color gradients
-    imageUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1600'
+    heroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200',
+    imageUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1600',
+    details: [
+      { label: 'Wall Finishes', value: 'Clay stucco with integrated natural plant base fibers' },
+      { label: 'Built-in Woodworks', value: 'Black sand-blasted sustainable solid ash wood panels' }
+    ],
+    paragraphs: [
+      'The Mont Kiara project was envisioned as a quiet acoustic bubble situated directly above the fast rhythms of KL city.',
+      'We combined heavy sliding partition walls, customized deep double-frontage sound-insulating glass layers, and hand-woven regional wool rugs.'
+    ],
+    specs: {
+      scope: 'Complete architectural layout rewrite, styling, acoustics orchestration, furniture sourcing.',
+      materials: 'Smoked oak, raw unhoned slate, soft felt wool panels, hand-carved solid travertine slabs.',
+      curation: 'Cura sofas, custom low-slung dark oiled-ash step tables, and local organic linen blinds.'
+    }
   },
   {
     slug: 'damansara-heights-bungalow',
@@ -63,8 +78,23 @@ export const projectsData: Project[] = [
     leadDesigner: 'Iman Suria',
     overview: 'A comprehensive multi-generational house redevelopment. Merging mid-century tropical architecture with minimalist Scandinavian elements.',
     approach: 'Bringing the garden indoors. We extended sliding glass boundaries and introduced a textured volcanic basalt stone wall that guides the transition from the lush courtyard to the indoor living chamber.',
-    heroImage: '',
-    imageUrl: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1600'
+    heroImage: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1200',
+    imageUrl: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=1600',
+    details: [
+      { label: 'Outdoor transition', value: 'Volcanic basalt masonry with raw unbleached joints' },
+      { label: 'Tropical Ventilation', value: 'Perforated teak breeze-soles letting air streams pass freely' }
+    ],
+    paragraphs: [
+      'This suburban villa was built originally in the late 1980s with heavy concrete facades that locked warmth inside.',
+      'Our primary action was tearing back partition modules and laying deep native teak timber tracks to allow organic cooling.'
+    ],
+    specs: {
+      scope: 'Structural renovation, elevation preservation, landscape transition, custom build-ins.',
+      materials: 'Rough basalt granite stone, regional wild teak wood, raw microcement, copper details.',
+      curation: 'Custom outdoor loungers, vintage Danish armchairs, regional clay planters.'
+    }
   },
   {
     slug: 'singapore-east-coast-maisonette',
@@ -77,8 +107,23 @@ export const projectsData: Project[] = [
     leadDesigner: 'Iman Suria',
     overview: 'An urban seaside sanctuary with high-exposure glass facades. Every layout gesture maximizes cross-ventilation and references the surrounding marine colors through soft dunes and grays.',
     approach: 'Low-profile floor assemblies and seamless microcement flooring throughout to create a unified volume. Wall-recessed storage hides all elements of modern domestic distraction.',
-    heroImage: '',
-    imageUrl: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600'
+    heroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200',
+    imageUrl: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600',
+    details: [
+      { label: 'Microcement flooring', value: 'Durable custom dune coloration hand-applied in Singapore' },
+      { label: 'Concealed cabinetry', value: 'Magnetic push-latch walnut doors flush with raw limestone paint' }
+    ],
+    paragraphs: [
+      'A dense city duplex layout that layout felt narrow and restricted.',
+      'We introduced highly aligned linear partitions, a single continuous color theme, and low-slung, floating credenzas.'
+    ],
+    specs: {
+      scope: 'Cabinetry modeling, interior skin application, spatial layouts, light planning.',
+      materials: 'Soft microcement, raw unpolished limestone panels, raw hemp screens, copper accents.',
+      curation: 'Cura minimalist sofas, native grass blinds, custom-fired table lamps.'
+    }
   },
   {
     slug: 'ttdi-family-home',
@@ -91,8 +136,23 @@ export const projectsData: Project[] = [
     leadDesigner: 'Iman Suria',
     overview: 'A suburban terraced home redesigned for dual creative professionals and their growing children. Balanced between robust play surfaces and quiet contemplative nooks.',
     approach: 'Sieving family activity with central floating oak step structures. Using rich Malaysian teak wood finishes combined with child-safe vegetable-oiled surfaces and textured hemp wallcloth.',
-    heroImage: '',
-    imageUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600'
+    heroImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200',
+    imageUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600',
+    details: [
+      { label: 'Central stairs', value: 'Floating sustainable solid white oak timber step threads' },
+      { label: 'Wall coverings', value: 'Organic hand-loomed raw hemp wallcloth safe for active children' }
+    ],
+    paragraphs: [
+      'Finding balance between the high kinetic energy of childhood and structural, physical peace.',
+      'This terraced home features a wide acoustic partition layout separating the children’s creative zone from the parents’ reading study.'
+    ],
+    specs: {
+      scope: 'Spatial layout planning, raw materials sourcing, complete furniture layering.',
+      materials: 'Natural white oak, unbleached heavy density linens, local organic clay bricks, wool.',
+      curation: 'Loom-spun rugs, modular child-safe linen block seating, raw oak block step indicators.'
+    }
   },
   {
     slug: 'bukit-tunku-garden-house',
@@ -105,8 +165,23 @@ export const projectsData: Project[] = [
     leadDesigner: 'Iman Suria',
     overview: 'An immersive estate surrounded by dense tropical foliage. The architecture and interior blend seamlessly, utilizing timber sun-shading screens that filter warm light into rhythmic stripes.',
     approach: 'Employing deep earth tones, textured rough-cut granite, and massive solid-teak lintels. Sliding systems allow complete integration with the jungle canopy and surrounding water sounds.',
-    heroImage: '',
-    imageUrl: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1600'
+    heroImage: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200',
+    beforeImage: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200',
+    afterImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200',
+    imageUrl: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1600',
+    details: [
+      { label: 'Facade Sun-screens', value: 'Sustainably-sourced Malaysian teak horizontal louvers' },
+      { label: 'Living stone floor', value: 'Honed dark forest granite slabs running outdoors continuously' }
+    ],
+    paragraphs: [
+      'Nestled inside the mature trees of Bukit Tunku, this property embraces absolute integration with the tropical context.',
+      'Every sliding glass panel disappears entirely into pocket walls, eliminating any boundary between architectural shelter and the Malaysian secondary rainforest.'
+    ],
+    specs: {
+      scope: 'Full-architectural concept, landscape curation, interior build-outs, and curated spatial objects.',
+      materials: 'Textured unrefined granite, dark-oiled native timber, structural copper sheets, clear glass.',
+      curation: 'Japanese minimalist custom cabinetry, low lounge wool daybed, antique temple stone vessels.'
+    }
   }
 ];
 
